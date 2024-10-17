@@ -21,19 +21,6 @@ calc('circle', 'area', [5])
 4. Enter figure sizes. Radius for circle, one side for square.
 5. Get the answer!
 
-# Math formulas
-## Area
-- Circle: `S = πR²`
-- Rectangle: `S = ab`
-- Square: `S = a²`
-- Triangle: `S = sqrt(p * (p-a) * (p-b) * (p-c))` where p is semiperimeter
-
-## Perimeter
-- Circle: `P = 2πR`
-- Rectangle: `P = 2a + 2b`
-- Square: `P = 4a`
-- Triangle: `P = a + b + c`
-
 ## Circle
 Модуль для вычисления площади и периметра круга
 Пример использования:
@@ -57,8 +44,21 @@ print(s)  # Вывод: 16.0
 p = area(3, 4, 5)
 print(p)  # Вывод: 6.0
 
+# Math formulas
+## Area
+- Circle: `S = πR²`
+- Rectangle: `S = ab`
+- Square: `S = a²`
+- Triangle: `S = sqrt(p * (p-a) * (p-b) * (p-c))` where p is semiperimeter
 
-## Commits
+## Perimeter
+- Circle: `P = 2πR`
+- Rectangle: `P = 2a + 2b`
+- Square: `P = 4a`
+- Triangle: `P = a + b + c`
+
+
+# Commits
 
 b5b0fae727ca72c317c383b39c0af73d6adcd81c L-04: Update docs for calculate.py Tue Mar 30 18:02:23 2021 +0300
 d76db2ac7f69cc920ae2e6f669fb0671a7fa7d71 L-04: Add calculate.py Tue Mar 30 17:57:42 2021 +0300
