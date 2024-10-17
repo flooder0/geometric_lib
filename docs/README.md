@@ -57,3 +57,11 @@ p = area(3, 4, 5)
 print(p)  # Вывод: 6.0
 
 
+## Commits
+
+b5b0fae727ca72c317c383b39c0af73d6adcd81c L-04: Update docs for calculate.py Tue Mar 30 18:02:23 2021 +0300
+d76db2ac7f69cc920ae2e6f669fb0671a7fa7d71 L-04: Add calculate.py Tue Mar 30 17:57:42 2021 +0300
+51c40ebfd0e0b65f52fe5e54740cbb038e492db3 L-04: Doc updated for triangle Fri Mar 26 14:52:26 2021 +0300
+d080c7888b81955bad2ed78d58ad910526b5132a L-04: Triangle added Fri Mar 26 14:48:39 2021 +0300
+d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added Thu Mar 4 14:55:29 2021 +0300
+8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added Thu Mar 4 14:54:08 2021 +0300
