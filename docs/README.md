@@ -65,3 +65,4 @@ d76db2ac7f69cc920ae2e6f669fb0671a7fa7d71 L-04: Add calculate.py Tue Mar 30 17:57
 d080c7888b81955bad2ed78d58ad910526b5132a L-04: Triangle added Fri Mar 26 14:48:39 2021 +0300
 d078c8d9ee6155f3cb0e577d28d337b791de28e2 L-03: Docs added Thu Mar 4 14:55:29 2021 +0300
 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added Thu Mar 4 14:54:08 2021 +0300
+
