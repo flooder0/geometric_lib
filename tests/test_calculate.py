@@ -1,6 +1,6 @@
 import unittest
 
-from calculate import *
+from calculate import calc
 
 class test_calculator(unittest.TestCase):
     def test_circle_perimeter(self):
