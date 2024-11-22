@@ -42,14 +42,20 @@ if __name__ == "__main__":
     size = list()
 
     while fig not in figs:
-        fig = input(f"Enter figure name, available are {figs}:\n")
+        fig = input(
+            f"Enter figure name, available are {figs}:\n"
+        )
 
     while func not in funcs:
-        func = input(f"Enter function name, available are {funcs}:\n")
+        func = input(
+            f"Enter function name, available are {funcs}:\n"
+        )
 
     while len(size) != sizes.get(f"{func}-{fig}", 1):
         try:
-            size = list(map(float, input(f"Input figure sizes separated by space (expected {sizes.get(f'{func}-{fig}', 1)} values):\n").split()))
+            size = list(map(float, input(
+                f"Input figure sizes separated by space (expected {sizes.get(f'{func}-{fig}', 1)} values):\n"
+            ).split()))
             if any(s <= 0 for s in size):
                 print("All sizes must be positive")
                 size = []
