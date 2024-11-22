@@ -54,8 +54,8 @@ if __name__ == "__main__":
     while len(size) != sizes.get(f"{func}-{fig}", 1):
         try:
             size = list(map(float, input(
-                f"Input figure sizes separated by space 
-				(expected {sizes.get(f'{func}-{fig}', 1)} values):\n"
+                f"Input figure sizes separated by space "
+                f"(expected {sizes.get(f'{func}-{fig}', 1)} values):\n"
             ).split()))
             if any(s <= 0 for s in size):
                 print("All sizes must be positive")
