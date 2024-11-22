@@ -1,6 +1,5 @@
 import unittest
-#import sys
-#sys.path.append('C:/Users/Artem/Isrpo/geometric_lib')
+
 from calculate import *
 
 class test_calculator(unittest.TestCase):
