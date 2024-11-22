@@ -18,13 +18,13 @@ jobs:
     env:
       FIO: "Ганиев Артём Рустамович"
       GROUP: "M3110"
-      GITHUB: "flooder0"
+
     steps:
       - name: Print details
         run: |
           echo "ФИО: ${{ env.FIO }}"
           echo "Группа: ${{ env.GROUP }}"
-          echo "GitHub username: ${{ env.GITHUB }}"
+          echo "GitHub username: ${{ github.actor }}"
 
       - name: Set up Python 3.13
         uses: actions/setup-python@v4
