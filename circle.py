@@ -1,6 +1,5 @@
 import math
 
-# Функция area вычисляет площадь круга, принимая радиус.
 def area(r):
     return math.pi * r * r
 
@@ -15,7 +14,6 @@ def area(r):
 # print(s)  # Вывод: 78.53981633974483
 
 
-# Функция perimeter вычисляет периметр (длину окружности) круга, принимая радиус.
 def perimeter(r):
     return 2 * math.pi * r
 
